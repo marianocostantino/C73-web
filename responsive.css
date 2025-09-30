@@ -1,0 +1,73 @@
+/* Resonsive tablets */
+@media (max-width: 991px){
+	.header {
+		position: fixed;
+		width: 100%;
+		height: 115px;
+		display: column;
+		flex-direction: column;
+		justify-content: space-edenly;		
+	}
+	
+	.header img {
+		width: 55px;
+		height: 55px;
+		border-radius: 6px;
+	}
+}
+
+@media (max-width: 768px){
+	.header {
+		position: fixed;
+		width: 100%;
+		height: 115px;
+		display: column;
+		flex-direction: column;
+		justify-content: space-edenly;		
+	}
+}
+
+@media (max-width: 497px){
+	.header {
+		position: fixed;
+		background: none;
+		flex-direction:column;
+		height: 325px;
+		justify-content: space-evenly;
+		border: 1px solid red;
+		text-align:center;
+	}
+	
+	.header img {
+		width: 55px;
+		height: 55px;
+		border-radius: 6px;
+		
+	}
+	
+	.header ul {
+		list-style: none;
+		flex-direction: column;
+		-- margin-top: 5px;		
+	}
+	
+	.header li {
+		margin-top: 5px 0;
+	}
+	
+	#mvv-section {
+		margin-top: 325px;
+	}
+	
+	/*.mvv {
+		margin-top: 325px;
+	}*/
+		
+	section {
+		scroll-margin-top: 325px;
+	}
+	
+	.contactenos_form label, input, textarea {
+		text-align: justify;
+	}
+}
