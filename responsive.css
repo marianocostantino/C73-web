@@ -28,6 +28,20 @@
 }
 
 @media (max-width: 497px){
+	.contact-section {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contacto {
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.contactenos_form label, input, textarea {
+		text-align: center;
+	}
+	
 	.header {
 		position: absolute;
 		background: none;
@@ -127,6 +141,7 @@
 	
 	
 }
+
 
 
 
