@@ -29,6 +29,7 @@
 
 @media (max-width: 497px){
 	.header {
+		position: absolute;
 		background: none;
 		flex-direction:column;
 		height: 325px;
@@ -72,6 +73,7 @@
 
 @media (max-width: 415px){
 	.header {
+		position: absolute;
 		background: none;
 		flex-direction:column;
 		height: 325px;
@@ -113,5 +115,6 @@
 	}
 	
 }
+
 
 
