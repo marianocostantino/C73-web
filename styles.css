@@ -259,16 +259,16 @@ p {
 	
 .contacto{
 	display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
-	width: 100%;
-	align-items: center;
-    gap: 1rem;
-    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    width: 70%;
+    margin-top: 2rem;
+	padding: 1.5rem;
 }
 	
-.seguinos {
+/*.seguinos {
 	flex-basis: 20%;
-}
+}*/
 	
 .seguinos p{
 	margin-bottom: 15px;
@@ -276,16 +276,16 @@ p {
     color: whitesmoke;
 }
 		
-.formulario {
+/*.formulario {
 	flex-basis: 50%;		
-}
+}*/
 
 .formulario label {
 	color: whitesmoke;
 }
 	
 .redes {
-	flex-basis: 20%;
+	/*flex-basis: 20%;*/
 	background: none;
 }
 
@@ -368,4 +368,5 @@ p {
 	font-size: 1.15rem;
 }
 	
+
 
