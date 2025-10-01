@@ -35,13 +35,13 @@
 		height: 325px;
 		justify-content: space-evenly;
 		text-align:center;
+		widht: 100%;
 	}
 	
 	.header img {
 		width: 55px;
 		height: 55px;
-		border-radius: 6px;
-		
+		border-radius: 6px;		
 	}
 	
 	.header ul {
@@ -72,6 +72,19 @@
 }
 
 @media (max-width: 415px){
+	.contact-section {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contacto {
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.contactenos_form label, input, textarea {
+		text-align: center;
+	}
 	.header {
 		position: absolute;
 		background: none;
@@ -79,6 +92,7 @@
 		height: 325px;
 		justify-content: space-evenly;
 		text-align:center;
+		widht: 100%;
 	}
 	
 	.header img {
@@ -110,11 +124,10 @@
 		scroll-margin-top: 325px;
 	}
 	
-	.contactenos_form label, input, textarea {
-		text-align: justify;
-	}
+	
 	
 }
+
 
 
 
