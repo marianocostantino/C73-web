@@ -28,6 +28,39 @@
 }
 
 @media (max-width: 497px){
+	.confian-section {
+		justify-content: center;
+		align-items: center;
+	}
+	
+	servicios-section{ 
+		justify-content: center;
+		align-items: center;
+	}
+	.servicios{
+		align-items: center;
+		justify-content: center;
+	}
+	.hr h4, p {
+		text-align: center;
+	}
+
+	.datos h4, p {
+		text-align: center;
+	}
+	
+	qs-section{ 
+		justify-content: center;
+		align-items: center;
+	}
+	.team-container{
+		align-items: center;
+		justify-content: center;
+	}
+	.card h3, p {
+		text-align: center;
+	}
+	
 	.contact-section {
 		justify-content: center;
 		align-items: center;
@@ -86,6 +119,39 @@
 }
 
 @media (max-width: 415px){
+	.confian-section {
+		justify-content: center;
+		align-items: center;
+	}
+	
+	servicios-section{ 
+		justify-content: center;
+		align-items: center;
+	}
+	.servicios{
+		align-items: center;
+		justify-content: center;
+	}
+	.hr h4, p {
+		text-align: center;
+	}
+
+	.datos h4, p {
+		text-align: center;
+	}
+	
+	qs-section{ 
+		justify-content: center;
+		align-items: center;
+	}
+	.team-container{
+		align-items: center;
+		justify-content: center;
+	}
+	.card h3, p {
+		text-align: center;
+	}
+	
 	.contact-section {
 		justify-content: center;
 		align-items: center;
@@ -99,6 +165,7 @@
 	.contactenos_form label, input, textarea {
 		text-align: center;
 	}
+	
 	.header {
 		position: absolute;
 		background: none;
@@ -141,6 +208,7 @@
 	
 	
 }
+
 
 
 
