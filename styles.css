@@ -117,17 +117,16 @@ p {
 
 .inspiracion {
   position: relative;
-  width: 400px;
-  height: 120px;
+  width: 100%;
+  height: 150px;
   padding: 10px;
   margin-top: 150px;
   /*background-color: rgb(253, 253, 253, 0.5);
   border-radius: 5px;
-  border: 1px solid #ddd;*/
+  border: 1px solid #0f0101;*/
   display: flex;
-  justify-content: right;
-  align-items: flex-end;
-   
+  justify-content: center;
+  align-items: flex-end;   
 }
 
 .inspiracion p {
@@ -156,6 +155,7 @@ p {
 	min-width: auto;
 	max-width: auto;
 	color: white;
+  text-align: justify;
 }
 	
 /* Estilo Servicios */
@@ -187,13 +187,19 @@ p {
 }
 
 .servicios h4 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-weight: 850;
+}
+
+.servicios h6 {
+  margin-top: 15px;
+  
 }
 
 .servicios p {
     margin-top: 15px;
     font-weight: 400;
+    font-size: medium;
 }
 
 /* Cards QS */
@@ -205,8 +211,8 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
-    width: 70%;
-    margin-top: 2rem;
+    width: 75%;
+    margin-top: 1rem;
 	  padding: 1.5rem;
 }
 
@@ -241,12 +247,16 @@ p {
 }
 
 .card h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 0.3rem;
+}
+.card h4 {
+    font-size: 1rem;
+    color: #444;
 }
 
 .card p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #444;
 }
 
@@ -420,6 +430,24 @@ p {
 	font-size: 1.15rem;
 }
 	
+
+/* Estilos footer*/
+.footer {
+  background-color: #333046;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  border: #F0F0FC 1px solid;
+}
+
+.footer p {
+  text-align: center;
+  font-size: small;
+  font-weight: 400;
+  color: #fff;
+}
+
 /* Estilo Boton whatsapp */
 .whatsapp-float {
     position: fixed; 
